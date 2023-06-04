@@ -1,0 +1,88 @@
+.banner__slider {
+  position: relative;
+  overflow: hidden;
+}
+.banner__wrapper {
+  display: flex;
+}
+.banner__slide {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  height: 600px;
+}
+.banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 45px;
+  padding-left: 30px;
+  padding-right: 75px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.75);
+  top: 0;
+  right: 0;
+  max-width: 405px;
+  height: 100%;
+}
+.banner__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--color-grey);
+  max-width: 300px;
+}
+.banner__title span {
+  color: var(--color-green);
+}
+.banner__link {
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  border-radius: 5px;
+  color: var(--color-white);
+  max-width: 140px;
+  height: 40px;
+  text-decoration: none;
+}
+.banner__prev,
+.banner__next {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  background: rgba(241, 242, 246, 0.3);
+  border-radius: 2px;
+  padding: 12px 17px;
+}
+.banner__next {
+  right: 0;
+}
+.swiper-button-disabled {
+  cursor: no-drop;
+}
+.banner__pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 7px;
+  background: var(--color-light);
+  opacity: 1;
+  border-radius: 0;
+}
+.swiper-pagination-bullet-active {
+  background: var(--color-blue);
+}

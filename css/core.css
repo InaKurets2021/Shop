@@ -11,8 +11,11 @@ body {
   line-height: 18px;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1310px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 75px;
+  padding: 0 10px;
+}
+ul {
+  list-style: none;
 }
