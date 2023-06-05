@@ -216,21 +216,67 @@
 
             </div>
 
-            <div class="banner__prev"><svg width="16" height="24" viewBox="0 0 16 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+            <div class="banner__prev"><svg class="banner__prev-svg" width="16" height="24" viewBox="0 0 16 24"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14 22.4102L3 11.7051L14 1.59473" stroke="#4798DE" stroke-width="3" />
                 </svg>
             </div>
-            <div class="banner__next"><svg width="16" height="24" viewBox="0 0 16 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+            <div class="banner__next"><svg class="banner__next-svg" width="16" height="24" viewBox="0 0 16 24"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 1.59473L13 12.2998L2 22.4101" stroke="#4798DE" stroke-width="3" />
                 </svg>
             </div>
         </div>
     </div>
 
+    <section class="stock">
+        <div class="container">
+
+            <div class="title__body">
+                <h3 class="stock__title title">STOCK</h3>
+                <span class="stock__subtitle subtitle">Акции</span>
+                <a href="" class="stock__link">Все акции</a>
+            </div>
+            <div class="stock__slider">
+                <div class="stock__wrapper">
+                    <div class="stock__slide"><img src="./img/slide1.jpg" alt=""></div>
+                    <div class="stock__slide slide">
+                        <img src="./img/slide2.jpg" alt="">
+                        <img class="stock__slide-img" src="./img/img.jpg" alt="">
+                        <span class="slide__text">Немецкое качество по доступным ценам.</span>
+                        <a href="#" class="slide__link">Подробнее</a>
+                    </div>
+                    <div class="stock__slide slide"><img src="./img/slide3.jpg" alt="">
+                        <span class="slide__promo">По промокоду Gidratop21</span>
+                    </div>
+                    <div class="stock__slide"><img src="./img/slide1.jpg" alt=""></div>
+                    <div class="stock__slide"><img src="./img/slide2.jpg" alt=""></div>
+                    <div class="stock__slide"><img src="./img/slide3.jpg" alt=""></div>
+                    <div class="stock__slide"><img src="./img/slide1.jpg" alt=""></div>
+
+                </div>
+            </div>
+            <div class="stock__btn">
+                <div class="stock__prev">
+                    <svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.0059 22.9814L3.00586 12.1609L14.0059 1.94153" stroke="#4798DE" stroke-width="3" />
+                    </svg>
+                </div>
+                <div class="stock__pagination"></div>
+                <div class="stock__next">
+                    <svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.00586 1.94043L13.0059 12.761L2.00586 22.9805" stroke="#4798DE" stroke-width="3" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./js/slider.js"></script>
+    <script src="./js/banner.js"></script>
+    <script src="./js/stock.js"></script>
 </body>
 
 </html>

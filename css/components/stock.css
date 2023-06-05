@@ -1,0 +1,116 @@
+.stock {
+  margin-top: 113px;
+}
+.stock__title {
+}
+.title {
+  position: absolute;
+  top: -57px;
+  left: 91px;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 142px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--color-light);
+}
+.title__body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.stock__subtitle {
+}
+.subtitle {
+  font-family: "DIN Pro";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  color: var(--color-darkblue);
+}
+
+.stock__link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--color-blue);
+}
+.stock__slider {
+  margin-top: 80px;
+  overflow: hidden;
+}
+.stock__wrapper {
+  display: flex;
+ }
+.stock__slide {
+  flex-shrink: 0;
+}
+.slide {
+  position: relative;
+}
+.stock__slide-img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.slide__text {
+  position: absolute;
+  bottom: 52px;
+  left: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  color: var(--color-black);
+  max-width: 180px;
+  height: 58px;
+}
+.slide__link {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: var(--color-white);
+  text-decoration: none;
+  width: 120px;
+  height: 30px;
+   background: var(--color-green);
+  border-radius: 5px;
+}
+.slide__promo {
+  position: absolute;
+  bottom: 38px;
+  right: 0;
+  font-weight: 700;
+  max-width: 125px;
+  height: 35px;
+  color:var(--color-white);
+  transform: rotate(-37.42deg);
+}
+.stock__btn {
+  width: 300px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.stock__next,
+.stock__prev {
+  padding: 13px 17px 11px 17px;
+  cursor: pointer;
+  background: var(--color-white);
+  border: 1px solid var(--color-light);
+  border-radius: 2px;
+}
